@@ -23,7 +23,7 @@ body {
 
 
 #ruhi {
-  height: 100svh;
+  /* height: 100svh; */
   background: rgb(0 0 0 / 40%);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
 
@@ -81,7 +81,6 @@ button {
   margin-top: 200px;
   color: rgb(250, 235, 215);
   font-size: 49px;
-  margin-bottom: 20px;
   font-weight: bolder;
 }
 
@@ -110,7 +109,7 @@ div>input {
   width: 380px;
   border-radius: 6px;
   margin-left: 450px;
-
+margin-bottom: 250px;
 }
 
 #start {
@@ -194,9 +193,10 @@ div>input {
 }
 
 #phone>img {
-  height: 430px;
+  margin: 0;
   width: 600px;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 
 #red {
@@ -286,7 +286,7 @@ div>input {
   bottom: 10px;
   color: white;
   margin-left: 750px;
-  margin-top: -13cm;
+  margin-top: -8cm;
   margin-right: 2cm;
   font-weight: bolder;
   font-size: 47px;
@@ -297,7 +297,7 @@ div>input {
 #you {
   color: beige;
   margin-left: 750px;
-  margin-top: -9.5cm;
+  margin-top: -4.5cm;
   margin-right: 5cm;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
   font-size: x-large;
@@ -341,7 +341,7 @@ div>input {
   bottom: 8cm;
 }
 
-#tv1>video {
+#tv1>video{
   position: absolute;
   display: flex;
   justify-content: center;
@@ -357,7 +357,7 @@ div>input {
 
 }
 
-*/ #nisha {
+#nisha{
   position: relative;
   display: flex;
   justify-content: center;
@@ -418,7 +418,7 @@ div>input {
 }
 
 #bhawna {
-  height: 1000px;
+  
   background-color: rgb(0, 0, 0);
 
   border-top: 2px grey solid;
@@ -433,9 +433,10 @@ div>input {
 
 }
 
+
 .paglu {
-  margin: 10px;
-  height: 80px;
+  
+
   width: 1100px;
   background-color: rgb(45, 45, 45);
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
@@ -444,15 +445,16 @@ div>input {
   margin-right: -400px;
   color: aliceblue;
   margin-top: 5px;
-  margin-bottom: -50px;
- 
+  
+  padding: 25px;
+
 }
 
 .kutta {
 
-  margin: 5px;
+  margin: 0 200px;
+border-top: 2px solid black;
 
-  height: 200px;
   width: 1100px;
   background-color: rgb(45, 45, 45);
   font-size: 25px;
@@ -460,9 +462,10 @@ div>input {
   margin-right: -400px;
   color: aliceblue;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  padding: 25px;
 }
 
-.she {
+/* .she {
   margin-bottom: -50px;
   height: 80px;
   width: 1100px;
@@ -473,9 +476,9 @@ div>input {
   color: aliceblue;
   margin-top: 60px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-}
+} */
 
-.hindi {
+/* .hindi {
   margin-top: 5px;
   height: 80px;
   width: 1100px;
@@ -485,9 +488,9 @@ div>input {
   margin-right: -400px;
   color: aliceblue;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-}
+} */
 
-.he {
+/* .he {
   margin-bottom: 50px;
   margin: 5px;
   height: 80px;
@@ -499,11 +502,11 @@ div>input {
   color: aliceblue;
   margin-top: 60px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-}
+} */
 
-.ashu {
+/* .ashu {
   color: aliceblue;
-  /* margin: -40px; */
+  margin: -40px;
   margin-top: 10px;
   height: 150px;
   width: 1100px;
@@ -514,9 +517,9 @@ div>input {
   margin-right: -400px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 
-}
+} */
 
-.raju {
+/* .raju {
   margin-bottom: -50px;
   margin: 5px;
   height: 80px;
@@ -528,9 +531,9 @@ div>input {
   color: aliceblue;
   margin-top: 5px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-}
+} */
 
-.apple {
+/* .apple {
   margin: -50px;
   margin-top: 5px;
   height: 80px;
@@ -542,9 +545,9 @@ div>input {
   color: aliceblue;
   margin-bottom: 10PX;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-}
+} */
 
-.rani {
+/* .rani {
   margin-bottom: -50px;
   margin: 5px;
   height: 80px;
@@ -556,12 +559,12 @@ div>input {
   color: aliceblue;
   margin-top: 5px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-}
+} */
 
-.maths {
+/* .maths { */
   /* margin-bottom: -50px; */
   /* margin: -50px; */
-  margin-top: 5px;
+  /* margin-top: 5px;
   height: 80px;
   width: 1100px;
   background-color: rgb(45, 45, 45);
@@ -597,7 +600,7 @@ div>input {
   margin-right: -400px;
   color: aliceblue;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-}
+} */
 
 #bhawna>h2 {
   color: antiquewhite;
@@ -605,6 +608,7 @@ div>input {
   margin-top: 70px;
 
 }
+
 #ram{
   height: 450px;
   background-color: rgb(0, 0, 0);
@@ -612,61 +616,371 @@ div>input {
   border-top: 2px grey solid;
   border-bottom: 6px gray solid;
 }
+
 .bhumi{
-  font-weight:500;
+  font-weight: 500;
   font-size: 0.985rem;
-  color:rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: underline;
-  margin-left:150px ;
+  margin-left: 150px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
   margin-top: 125px;
 }
-  #word{
-    color:rgba(255, 255, 255, 0.7);
-    margin-left:150px ;
-    background-color: rgba(128, 128, 128, 0.09);
-    
-    
-  }
 
-#rohit{
-  font-weight:500;
+#word{
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 150px;
+  background-color: rgba(128, 128, 128, 0.09);
+
+
+}
+
+#sita {
+  border: 2px solid gray;
+  display: flex;
+  width: 19vw;
+  margin-top: -140px;
+  position: relative;
+  z-index: 100;
+
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 16vw;
+  ;
+}
+
+#sita>div>img {
+  width: 3.5rem;
+  margin: 0;
+
+  /* height: ; */
+
+}
+
+#sita>div>div:nth-child(2) {
+  color: blue;
+  /* margin-left: -18px; */
+
+}
+
+#sita>div>div:nth-child(1) {
+  color: white;
+  /* margin-left: -18px; */
+  font-size: medium;
+}
+
+
+#rohit {
+  font-weight: 500;
   font-size: 0.985rem;
-  color:rgba(255, 255, 255, 0.7);
-   
-  margin-left:150px ;
+  color: rgba(255, 255, 255, 0.7);
+
+  margin-left: 150px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
-#karan{
+#karan {
   margin-top: 80px;
 }
-#ashiyana{
+
+#ashiyana {
   font-weight: 500;
   font-size: 0.875rem;
-  color:rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: underline;
-  margin-left:450px ;
+  margin-left: 450px;
   margin-top: -185px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 
 }
-#dev{
+
+#dev {
   font-weight: 500;
   font-size: 0.875rem;
   margin-top: -160px;
-  margin-left:750px ;
+  margin-left: 750px;
   color: rgba(255, 255, 255, 0.7);
   text-decoration: underline;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
-#yash{
-  color:rgba(255, 255, 255, 0.7);
-   text-decoration: underline;
-   margin-left:1000px ;
-   margin-top: -150px;
-   font-weight: 500;
-   font-size: 0.875rem;
-   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+#yash {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  margin-left: 1000px;
+  margin-top: -150px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
+
+@media only screen and (max-width: 1300px) {
+  heading>h1 {
+    font-size: 30px;
+  }
+
+  #khushi>img {
+    margin-right: 40vw;
+    margin-left: 10vw;
+  }
+
+  div>input {
+    margin-left: 20vw;
+    margin-bottom: 10vw;
+  }
+
+  #font {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #heading>h1 {
+    font-size: 39px;
+    margin-top: 100px;
+  }
+
+  div>input {
+    margin-left: 18vw;
+  }
+
+ 
+
+  #moto>h5 {
+    margin-right: 34vw;
+    font-size: 20px;
+    margin-left: 13vw;
+
+  }
+
+  #pagal>img {
+    margin-right: 75vw;
+
+    margin-top: 11vw;
+
+
+    margin-right: 75vw;
+    margin-top: 11vw;
+
+    margin-left: 14.5vw;
+    height: 280px;
+    width: 370px;
+  }
+
+  #video1>video {
+    margin-top: 110px;
+    margin-left: 45px;
+  }
+
+  #video1>video {
+    height: 28vh;
+    width: 27vw;
+    margin-top: 110px;
+    margin-left: 4px;
+  }
+
+  #moto>h1 {
+    margin-left: 130px;
+
+  }
+
+
+
+
+#red {
+  position: relative;
+
+  left: 15%;
+  bottom: 140px;
+  height: 12vh;
+  width: 25vw;
+
+}
+
+#urlimage>img {
+  bottom: 210px;
+  margin-left: 340px;
+}
+
+
+#urlimage>img {
+  height: 50px;
+  width: 50px;}
+/* 
+  #red>div>img {
+    height: 10.5vh;
+    width: 7.5vw;
+    left: 200px;
+    bottom: 9%
+  } */
+
+  .down {
+
+    left: 12cm;
+
+    bottom: 90.5%;
+    font-size: 15px;
+  }
+
+
+  #red>div>h5 {
+
+    font-size: smaller;
+    margin-left: 450px;
+
+    right: 2.6cm;
+  }
+
+  #urlimage>img {
+
+    bottom: 220px;
+
+    margin-left: 350px;
+  }
+
+
+
+
+
+  #watch>div>h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 111px;
+    margin-top: 160px;
+  }
+
+  #nisha>img {
+    position: relative;
+    z-index: 10;
+    height: 52vh;
+    width: 52vw;
+    margin-left: 10px;
+    margin-top: -130px;
+    margin-bottom: 0px;
+  }
+
+  #tv1>video {
+
+    right: 60px;
+    height: 40vh;
+    width: 32vw;
+    top: -160px;
+    bottom: 110px;
+
+
+  }
+
+  #watch>div>h3 {
+    color: aliceblue;
+    margin-left: 110px;
+    font-size: 20px;
+    margin-right: 400px;
+  }
+
+
+
+  #tv1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    bottom: 2cm;
+    margin-right: 30px;
+  }
+
+  #children>img {
+    margin-left: 50px;
+    height: auto;
+    width: 45vw;
+
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+
+  #children>h2 {
+    margin-top: 260px;
+    right: 150px;
+
+    margin-left: 520px;
+    margin-top: 275px
+      /* margin-right: 1cm; */
+
+  }
+
+  #children>h4 {
+    margin-left: 490px;
+    margin-right: 10px;
+    margin-top: -20px;
+    margin-top: 60px;
+  }
+
+  #bhawna>h1 {
+
+    margin-left: 260px;
+  }
+
+  .paglu {
+    margin: 10px;
+    height: 70px;
+    width: 450px;
+
+
+  }
+
+  .paglu {
+
+    height: 70px;
+    width: 780px;
+
+  }
+
+  .kutta {
+    height: 120px;
+    width: 780px;
+  }
+
+ 
+
+  #heading2>h2 {
+
+    margin-left: 450px;
+    margin-top: -6cm;
+    margin-right: 0;
+
+    font-size: 35px
+  }
+
+
+  
+
+  #you {
+    color: beige;
+    margin-left: 450px;
+    margin-top: -3.5cm;
+
+
+
+  }
+  #sita {
+    margin-top: -120px;
+
+    width: 22vw;
+    margin-left: 12.5vw;
+  }
+
+  #phone>img {
+    height: auto;
+    width: 40vw;
+   
+    margin-left: 50px;
+  }
+  #sita>div>img {
+    width: 2.5rem;}
+
+}
+
+
